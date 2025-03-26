@@ -60,7 +60,9 @@
 }
 
 #section-services .service-container {
+  color: white;
   display: flex;
+  gap: 5px;
 }
 #section-services .service-container .service, #section-services .service-container .mini-service, #section-services .service-container .mini-container {
   display: flex;
@@ -71,19 +73,64 @@
 #section-services .service-container .service {
   background-image: url(../img/homme-assis-batiment.jpg);
   background-size: cover;
+  width: 50%;
+  height: 30vh;
+  border-radius: 10px;
+  gap: 0.5rem;
+}
+#section-services .service-container .mini-container {
+  width: 50%;
+  height: 30vh;
+  gap: 5px;
+  border-radius: 10px;
 }
 #section-services .service-container .mini-container .un {
+  width: 100%;
+  height: 100%;
   background-image: url(../img/passport.jpg);
   background-size: cover;
+  border-radius: 10px;
+  gap: 0.5rem;
 }
 #section-services .service-container .mini-container .deux {
+  width: 100%;
+  height: 100%;
   background-image: url(../img/montgolfiere.jpg);
   background-size: cover;
+  border-radius: 10px;
+  gap: 0.5rem;
+}
+
+#section-features {
+  background-image: url(../img/wave.svg);
+}
+#section-features h2 {
+  text-align: right;
+  margin-top: 3rem;
+}
+#section-features .features {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+#section-features .features .feature {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+#section-features .features .feature p {
+  color: gray;
+}
+#section-features .features .feature .icone {
+  width: 30%;
 }
 
 body {
   font-family: "Lato";
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   padding: 1rem 5%;
 }
