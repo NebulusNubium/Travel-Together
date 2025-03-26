@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as variable;
+
+.cardbig {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: variable.$width/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

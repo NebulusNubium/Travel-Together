@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as variable;
+
+body {
+    width: variable.$width;
+    font-family: variable.$police-principale;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: variable.$taille-h2;
+}
+
+h2 {
+
+}
