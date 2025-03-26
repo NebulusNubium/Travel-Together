@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+.btn {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+}
+
 .cardbig {
   width: 100%;
   display: flex;
@@ -12,22 +25,100 @@
   align-items: center;
 }
 
+.logotop {
+  width: 20%;
+}
+.logotop img {
+  width: 100%;
+}
+
+#section-learn {
+  background-color: #e7816b;
+  border-radius: 10px;
+}
+#section-learn .learn-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#section-learn .learn-container .learn-txt {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#section-learn .learn-container .learn-txt a {
+  width: 30%;
+}
+#section-learn .learn-container .learn-img {
+  width: 20%;
+  padding-top: 0;
+}
+#section-learn .learn-container .learn-img img {
+  width: 100%;
+}
+
+#section-services .service-container {
+  display: flex;
+}
+#section-services .service-container .service, #section-services .service-container .mini-service, #section-services .service-container .mini-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section-services .service-container .service {
+  background-image: url(../img/homme-assis-batiment.jpg);
+  background-size: cover;
+}
+#section-services .service-container .mini-container .un {
+  background-image: url(../img/passport.jpg);
+  background-size: cover;
+}
+#section-services .service-container .mini-container .deux {
+  background-image: url(../img/montgolfiere.jpg);
+  background-size: cover;
+}
+
 body {
-  width: 80vw;
   font-family: "Lato";
+  font-size: 16px;
+  margin: 0;
+  padding: 1rem 5%;
 }
 
 a {
   text-decoration: none;
   text-align: center;
+  color: grey;
 }
 
 li {
   list-style: none;
 }
 
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 h2 {
-  font-size: 45px;
+  font-size: 30px;
+  font-family: "Lato";
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

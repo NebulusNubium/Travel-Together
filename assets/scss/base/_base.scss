@@ -1,23 +1,41 @@
 @use "../abstracts/variables" as variable;
 
 body {
-    width: variable.$width;
     font-family: variable.$police-principale;
+    font-size: variable.$taille-S;
+    margin: 0;
+    padding: 1rem 5%;
 }
 
 a {
     text-decoration: none;
     text-align: center;
+    color: grey;
 }
 
 li {
     list-style: none;
 }
 
-h2 {
-    font-size: variable.$taille-h2;
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
+    font-size: variable.$taille-h2;
+    font-family: variable.$police-principale;
+    margin: 0;
+}
 
+h3 {
+    font-size: variable.$taille-h3;
+    margin: 0;
 }

@@ -1,0 +1,10 @@
+@use "variables" as variable;
+
+@mixin btn {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 1px 1px 5px;
+    border-radius: variable.$radius;
+}

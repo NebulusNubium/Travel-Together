@@ -2,6 +2,14 @@
   "name": "travel-together",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/NebulusNubium/Travel-Together#readme",
+  "bugs": {
+    "url": "https://github.com/NebulusNubium/Travel-Together/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NebulusNubium/Travel-Together.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",

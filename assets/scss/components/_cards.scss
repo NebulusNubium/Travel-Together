@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as variable;
+@use "buttons" as button;
 
 .cardbig {
     width: 100%;
@@ -12,4 +13,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logotop {
+    width: 20%;
+    img {
+        width: 100%;
+    }
+}
+
+#section-learn {
+    background-color: #e7816b;
+    border-radius: variable.$radius;
+    .learn-container {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .learn-txt {
+            width: 50%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            a {
+                width: 30%;
+            }
+        }
+        .learn-img {
+            width: 20%;
+            padding-top: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#section-services {
+    .service-container {
+        display: flex;
+        .service, .mini-service, .mini-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .service {
+            background-image: url(../img/homme-assis-batiment.jpg);
+            background-size: cover;
+        }
+        .mini-container {
+            .un {
+                background-image: url(../img/passport.jpg);
+                background-size: cover;
+            }
+            .deux {
+                background-image: url(../img/montgolfiere.jpg);
+                background-size: cover;
+            }
+        }
+    }
 }
