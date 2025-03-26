@@ -1,20 +1,6 @@
 @use "../abstracts/variables" as variable;
 @use "buttons" as button;
 
-.cardbig {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    width: variable.$width/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .logotop {
     width: 20%;
     img {
@@ -95,9 +81,12 @@
 
 #section-features {
     background-image: url(../img/wave.svg);
+    background-size: cover;
+    padding-bottom: 10%;
     h2 {
         text-align: right;
         margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .features {
         width: 100%;
@@ -117,5 +106,52 @@
                 width: 30%;
             }
         }
+    }
+}
+
+#section-getintouch {
+    position: relative;
+    background-color: #e7816b;
+    border-radius: variable.$radius;
+    .get-container {
+        width: 100%;
+        padding: 3rem 0rem 3rem 0rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .get-txt {
+            width: 50%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            a {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    .footop {
+        margin-top: 20%;
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .logo {
+            width: 25%;
+            padding-bottom: 1rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .footbot {
+        display: flex;
+        
     }
 }

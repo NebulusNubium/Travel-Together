@@ -8,3 +8,11 @@
     box-shadow: 1px 1px 5px;
     border-radius: variable.$radius;
 }
+
+@mixin cards {
+    width: variable.$width/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

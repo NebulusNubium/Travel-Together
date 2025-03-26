@@ -11,20 +11,6 @@
   border-radius: 10px;
 }
 
-.cardbig {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  width: 26.6666666667vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .logotop {
   width: 20%;
 }
@@ -103,10 +89,13 @@
 
 #section-features {
   background-image: url(../img/wave.svg);
+  background-size: cover;
+  padding-bottom: 10%;
 }
 #section-features h2 {
   text-align: right;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 #section-features .features {
   width: 100%;
@@ -126,6 +115,52 @@
 }
 #section-features .features .feature .icone {
   width: 30%;
+}
+
+#section-getintouch {
+  position: relative;
+  background-color: #e7816b;
+  border-radius: 10px;
+}
+#section-getintouch .get-container {
+  width: 100%;
+  padding: 3rem 0rem 3rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#section-getintouch .get-container .get-txt {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#section-getintouch .get-container .get-txt a {
+  width: 30%;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.footer .footop {
+  margin-top: 20%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.footer .footop .logo {
+  width: 25%;
+  padding-bottom: 1rem;
+}
+.footer .footop .logo img {
+  width: 100%;
+}
+.footer .footbot {
+  display: flex;
 }
 
 body {
