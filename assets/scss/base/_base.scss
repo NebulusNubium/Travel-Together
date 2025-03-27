@@ -3,7 +3,15 @@
 body {
     font-family: variable.$police-principale;
     font-size: variable.$taille-S;
+    margin: 0;
+}
+
+*section, header {
     margin: 1rem 5%;
+}
+
+.footer {
+    padding: 0 5%;
 }
 
 a {

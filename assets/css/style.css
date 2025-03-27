@@ -5,7 +5,15 @@
 body {
   font-family: "Lato";
   font-size: 14px;
+  margin: 0;
+}
+
+* section, header {
   margin: 1rem 5%;
+}
+
+.footer {
+  padding: 0 5%;
 }
 
 a {
@@ -51,7 +59,7 @@ h3 {
 }
 
 .logotop {
-  width: 20%;
+  width: 15%;
 }
 .logotop img {
   width: 100%;
@@ -103,13 +111,13 @@ h3 {
   background-image: url(../img/homme-assis-batiment.jpg);
   background-size: cover;
   width: 50%;
-  height: 30vh;
+  height: 50vh;
   border-radius: 10px;
   gap: 0.5rem;
 }
 #section-services .service-container .mini-container {
   width: 50%;
-  height: 30vh;
+  height: 50vh;
   gap: 5px;
   border-radius: 10px;
 }
@@ -141,6 +149,7 @@ h3 {
   text-align: right;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-right: 5%;
 }
 #section-features .features {
   width: 100%;
