@@ -234,4 +234,74 @@ h3 {
   width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+  .learn-container .learn-txt {
+    width: 90%;
+  }
+  .learn-container .learn-txt a {
+    width: 100%;
+  }
+  .learn-container .learn-img {
+    display: none;
+  }
+  .service-container {
+    flex-direction: column;
+  }
+  .service-container .service, .service-container .mini-container {
+    width: 90%;
+  }
+  #section-features {
+    position: unset;
+  }
+  #section-features h2 {
+    text-align: center;
+  }
+  #section-features .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  #section-features .features feature {
+    width: 80%;
+  }
+  #section-getintouch {
+    margin: 0;
+  }
+  #section-getintouch .get-container {
+    flex-direction: column;
+  }
+  #section-getintouch .get-container .get-txt {
+    width: 80%;
+  }
+  #section-getintouch .get-container .get-txt a {
+    width: 50%;
+  }
+  .footer .footop {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer .footop .logo {
+    width: 60%;
+  }
+  .footer .footop .nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+  .footer .footbot {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 70%;
+    text-align: center;
+    gap: 1rem;
+  }
+  .footer .footbot .social {
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

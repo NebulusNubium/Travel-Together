@@ -1,0 +1,75 @@
+@media screen and (max-width: 400px) {
+    .learn-container {
+        .learn-txt {
+            width: 90%;
+            a {
+                width: 100%;
+            }
+        }
+        .learn-img {
+            display: none;
+        }
+    }
+
+    .service-container {
+        flex-direction: column;
+        .service, .mini-container {
+            width: 90%;
+        }
+    }
+    #section-features {
+        position: unset;
+        h2 {
+            text-align: center;
+        }
+        .features {
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            feature {
+                width: 80%;
+            }
+        }
+    }
+
+    #section-getintouch {
+        margin: 0;
+        .get-container {
+            flex-direction: column;
+            .get-txt {
+                width: 80%;
+                a {
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .footer {
+        .footop {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            .logo {
+                width: 60%;
+            }
+            .nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                justify-content: center;
+                padding-right: 2rem;
+            }
+        }
+        .footbot {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height: 70%;
+            text-align: center;
+            gap: 1rem;
+            .social {
+                width: 30%;
+            }
+        }
+    }
+}
