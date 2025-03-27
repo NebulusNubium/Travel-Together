@@ -1,4 +1,11 @@
 @media screen and (max-width: 400px) {
+    .logotop {
+        width: 50%;
+        padding-left: 25%;
+    }
+    .nav {
+        display: none;
+    }
     .learn-container {
         .learn-txt {
             width: 90%;
@@ -33,7 +40,7 @@
     }
 
     #section-getintouch {
-        margin: 0;
+        margin: 0 0 -5% 0;
         .get-container {
             flex-direction: column;
             .get-txt {
