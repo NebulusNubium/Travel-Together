@@ -146,21 +146,34 @@
   color: gray;
 }
 .footer .footop {
-  margin-top: 20%;
+  margin-top: 15%;
   border-bottom: 1px solid gray;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
+  padding-bottom: 3rem;
 }
 .footer .footop .logo {
   width: 25%;
-  padding-bottom: 1rem;
 }
 .footer .footop .logo img {
   width: 100%;
 }
 .footer .footbot {
   display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  line-height: 50%;
+  padding: 2rem 0;
+}
+.footer .footbot .social {
+  display: flex;
+  width: 10%;
+  gap: 5px;
+  align-items: center;
+}
+.footer .footbot .social img {
+  width: 100%;
 }
 
 body {
@@ -180,7 +193,7 @@ li {
   list-style: none;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   justify-content: end;
   align-items: center;

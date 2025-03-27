@@ -137,14 +137,14 @@
     flex-direction: column;
     color: gray;
     .footop {
-        margin-top: 20%;
+        margin-top: 15%;
         border-bottom: 1px solid gray;
         display: flex;
         justify-content: space-between;
-        align-items: end;
+        align-items: center;
+        padding-bottom: 3rem;
         .logo {
             width: 25%;
-            padding-bottom: 1rem;
             img {
                 width: 100%;
             }
@@ -152,6 +152,18 @@
     }
     .footbot {
         display: flex;
-        
+        gap: 3rem;
+        justify-content: space-between;
+        line-height: 50%;
+        padding: 2rem 0;
+        .social {
+            display: flex;
+            width: 10%;
+            gap: 5px;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
