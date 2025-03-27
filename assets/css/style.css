@@ -275,7 +275,7 @@ h3 {
     align-items: center;
     gap: 0;
   }
-  #section-features .features feature {
+  #section-features .features .feature {
     width: 80%;
   }
   #section-getintouch {
